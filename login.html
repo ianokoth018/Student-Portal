@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+         body{
+    margin: 0px;
+    padding: 0px;
+    text-align:center;
+    width: 100%;
+    background-color: #e6e6fae8;
+    }
+     
+    input[type=text], input[type=password], input[type=email]{
+    width:20%;
+    padding:7px 10px;
+    margin: 10px 0;
+    display:inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    }
+     
+    input[type=submit]{
+    background-color:#4CAF50;
+    width: 10%;
+    padding: 9px 5px;
+    margin:10px 0px 0px 35px;
+    cursor:pointer;
+    border:none;
+    color:#ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    }
+    </style>
+</head>
+<body>
+<h1>LOGIN HERE</h1>
+    <form action="login.php" method="POST">
+        <label for="lname">Registration Number:</label><br>
+        <input type="text" id="regno" name="RegNo"><br>
+        <label>Password:</label><br>
+        <input type="password" id="password" name="Password"><br>
+  
+        <input type="submit" value="LOGIN">
+      </form>
+      <p>Not Yet Registered?<a href="registration.html">Register</a></p>
+      <p>Forgot Password?<a href="forgot.php">Forgot Password</a></p>
+</body>
+</html>
